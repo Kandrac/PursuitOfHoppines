@@ -1,0 +1,25 @@
+.breweryCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.breweryCard img {
+    height: 255px;
+    width: 255px;
+    object-fit: cover;
+    margin: 0 16px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 6px;
+}
+
+.rating span {
+    color: orange;
+    font-size: 18px;
+    margin: 0 4px;
+}
