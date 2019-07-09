@@ -1,33 +1,39 @@
 .breweries {
-  padding: 30px;
-  background-color: gainsboro;
+	padding: 30px;
+	background-color: gainsboro;
 }
 
 .breweries .container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
 }
 
 input[type="text"] {
-  margin: 0 16px;
-  padding: 4px;
+	margin: 0 16px;
+	padding: 4px;
 }
 
 .search {
-  color: #444;
-  transition: 0.2s;
+	color: #444;
+	transition: 0.2s;
 }
 
 .search:hover {
-  color: #fff;
-  background-color: #6c757d;
+	color: #fff;
+	background-color: #6c757d;
 }
 
 .breweries .cards {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.loading {
+	width: 100%;
+	text-align: center;
+	font-family: 'Barriecito', cursive;
 }
