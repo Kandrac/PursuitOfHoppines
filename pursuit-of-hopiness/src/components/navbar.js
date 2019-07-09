@@ -10,7 +10,7 @@ export default function Navbar() {
     <nav className="navbar">
       <ul>
         <li>
-          <Link to="/">Pursuit of Hoppiness</Link>
+          <Link to="/" className='title'>Pursuit of Hoppiness</Link>
         </li>
       </ul>
       <ul className='userState'>
